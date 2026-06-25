@@ -1,10 +1,10 @@
-# Data Mining (CS405/CS505) — Assignment 2: Evaluation and Selection of Decision Models
+# Decision Model Selection and Cross-Validation
 
-Coursework for **Data Mining (CS405/CS505)**, Bishop's University.
+Exploring cross-validation strategies and hyperparameter search for model selection, using an MLP classifier on the Iris dataset.
 
 Cross-validation for estimating generalisation error and for selecting hyperparameters, using a
-multi-layer perceptron (MLP) on the Iris dataset. The full solution, answering all eleven
-questions, is in [`Assignment2_Model_Selection_CV.ipynb`](Assignment2_Model_Selection_CV.ipynb).
+multi-layer perceptron (MLP) on the Iris dataset. The full implementation and analysis, covering all eleven
+questions, is in [`model_selection_cross_validation.ipynb`](model_selection_cross_validation.ipynb).
 
 ## Topics covered
 
@@ -20,12 +20,12 @@ questions, is in [`Assignment2_Model_Selection_CV.ipynb`](Assignment2_Model_Sele
 
 ```bash
 pip install numpy scipy matplotlib scikit-learn pandas
-jupyter notebook Assignment2_Model_Selection_CV.ipynb
+jupyter notebook model_selection_cross_validation.ipynb
 ```
 
 ## Files
 
 | File | Description |
 |------|-------------|
-| `Assignment2_Model_Selection_CV.ipynb` | Full solution with answers to all 11 questions |
-| `Assignment 2.pdf` | Assignment description |
+| `model_selection_cross_validation.ipynb` | Full implementation and analysis covering all 11 questions |
+| `PROJECT_BRIEF.pdf` | Project brief (goals, objectives, outcomes) |
